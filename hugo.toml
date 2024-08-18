@@ -1,4 +1,5 @@
-baseURL = "https://example.org/"
+# baseURL is handeled via env var with -b flag 
+# (https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#deploy-with-cloudflare-pages)
 languageCode = "en-us"
-title = "Its me"
+title = "expstew"
 theme = "smol"
