@@ -1,5 +1,30 @@
 # baseURL is handeled via env var with -b flag 
 # (https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#deploy-with-cloudflare-pages)
-languageCode = "en-us"
+enableEmoji = true
 title = "expstew"
 theme = "smol"
+
+defaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = "en"
+    languageDirection = "ltr"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      subtitle = "A subtitle"
+
+
+  [languages.de]
+    disabled = false
+    languageCode = "de-DE"
+    languageDirection = "ltr"
+    languageName = "Deutsch"
+    weight = 2
+    [languages.de.params]
+      subtitle = "Mein Subtitel"
+
+
