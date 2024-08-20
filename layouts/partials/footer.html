@@ -1,6 +1,10 @@
+	<style lang="css">
+		footer {
+		font-size: 0.85em;
+		}
+	</style>
 <footer>
 	<p>&copy; {{ now.Year }} <a href='{{ urls.AbsLangURL "/" }}'><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a>.
-		<!-- TODO make footer items smaller (no csss styles with style="...") -->
 	{{- range .Site.Menus.footer }}
 	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
         {{- end }}
