@@ -6,6 +6,9 @@ theme = "smol"
 
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true
+# [menu.main]
+# url = "https://github.com/expstew"
+# title = "Source Code"
 
 [languages]
   [languages.en]
@@ -15,7 +18,12 @@ defaultContentLanguage = "en"
     languageName = "English"
     weight = 1
     [languages.en.params]
-      subtitle = "A subtitle"
+      subtitle = "Cornflowers are blue."
+    [languages.en.menu]
+      [[languages.en.menu.footer]]
+        name = "Source Code"
+        url = "https://github.com/expstew/website"
+        weight = 1 
 
 
   [languages.de]
@@ -25,6 +33,11 @@ defaultContentLanguage = "en"
     languageName = "Deutsch"
     weight = 2
     [languages.de.params]
-      subtitle = "Mein Subtitel"
+      subtitle = "Kornblumen sind blau."
+    [languages.de.menu]
+      [[languages.de.menu.footer]]
+        name = "Quellcode"
+        url = "https://github.com/expstew/website"
+        weight = 1 
 
 
