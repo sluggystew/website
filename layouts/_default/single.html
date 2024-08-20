@@ -2,9 +2,9 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
+			<i><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></i>
 		       {{ range .Params.tags }}
-		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
         	       {{ end }}
 
 			<div>
@@ -12,5 +12,5 @@
 			</div>
 		</article>
 	</main>
-{{ partial "sidebar.html" . }}
+<!-- {{ partial "sidebar.html" . }} -->
 {{ end }}

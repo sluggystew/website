@@ -1,6 +1,6 @@
 <header>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
-	== <a href='{{ urls.AbsLangURL "/" }}'>{{ .Site.Title }}</a> ==<br>
+	== <b>{{ .Site.Title }}</b> ==<br>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
 	<p>
