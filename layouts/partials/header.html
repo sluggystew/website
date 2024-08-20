@@ -1,11 +1,11 @@
 <header>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
-	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
+	== <a href='{{ urls.AbsLangURL "/" }}'>{{ .Site.Title }}</a> ==<br>
 	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
 	<p>
 	<nav>
-			<a href="/"><b>Start</b></a>.
+		<a href='{{ urls.AbsLangURL "/" }}'><b>Start</b></a>.
 			{{ with .Site.Menus.main }}
 			{{ range . }}
 			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
