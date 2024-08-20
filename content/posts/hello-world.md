@@ -10,4 +10,5 @@ tags:
   - default
 ---
 
-Hi, this is my first post
+Hi, this is my first post.
+This is just a demonstration of a page to fix a bug.
