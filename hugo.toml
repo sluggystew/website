@@ -9,6 +9,11 @@ defaultContentLanguage = "en"
 # [menu.main]
 # url = "https://github.com/expstew"
 # title = "Source Code"
+#
+
+enableGitInfo = true
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [languages]
   [languages.en]

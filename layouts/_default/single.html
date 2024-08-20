@@ -2,15 +2,18 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<i><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></i>
-		       {{ range .Params.tags }}
-		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
-        	       {{ end }}
-
+		<i>Created <time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></i>
+		{{- if .Lastmod }}
+		<i>Last edited <time>{{ .Lastmod.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></i>
+		{{- end }}
+		<hr>
 			<div>
 				{{ .Content }}
 			</div>
 		</article>
+		       tags: {{ range .Params.tags }}
+		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+        	       {{ end }}<br>
 	</main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
