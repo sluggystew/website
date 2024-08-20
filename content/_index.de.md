@@ -1,6 +1,5 @@
 +++
-title = ''
-date = 2024-08-19T18:55:11+02:00
+title = 'Home'
 draft = false
 +++
 
@@ -12,3 +11,5 @@ Hier sind eine paar Links ->
 - [Github](https://github.com/expstew)
 
 Und hier einige Posts von mir :smile: ->
+
+Die deutsche Version der Webseite ist noch WIP.
