@@ -8,7 +8,6 @@ I use [hugo](https://gohugo.io) to generate html and [cloudflare pages](https://
   - lang specific sites?
   - en placeholder for de sites?
 - music links
-- smaller font size in footer
 - make Iosevka font button that loads it. (and stores prefernce?)
 
 
