@@ -3,16 +3,28 @@ I use [hugo](https://gohugo.io) to generate html and [cloudflare pages](https://
 I use the [smol theme](https://themes.gohugo.io/themes/smol/) with some modifications as I go 
 along. It is starting point.
 
+The file .hugo-version contains the version the website is intended to be built with 
+-> you have to update the HUGO_VERSION env varibale in cloudflare manually!
+
 # Todo
+## done until release
+- robots.txt
+- imprint ?
+- copyright
+
+## QOL
 - light/dark mode switcher
-- snacks
-- crazy theme mode
 - langauge switcher as link to lang specific site
   - lang specific sites?
   - en placeholder for de sites?
-- music links
-- imprint ?
 - make Iosevka font button that loads it. (and stores prefernce?)
+
+## fun
+- crazy theme mode
+- jack the snake
+
+## content
+- music links
 
 
 

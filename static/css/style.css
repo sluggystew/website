@@ -4,6 +4,7 @@ html {
 :root {
   --bgcolor: white;
   --fontcolor: #444;
+  --fontcolor-subdued: #666;
   --linkcolor: #00e;
   --visitedcolor: #551a8b;
   --precolor: #fff;
@@ -13,6 +14,7 @@ html {
   :root {
     --bgcolor: black;
     --fontcolor: white;
+    --fontcolor-subdued: #bbb;
     --linkcolor: #5bf;
     --visitedcolor: #ae5ee0;
     --precolor: #fff;
@@ -79,4 +81,10 @@ img {
   max-width: 100%;
   height: auto;
   margin: auto;
+}
+
+/* make less visible / important */
+.subdued {
+  font-size: small;
+  color: var(--fontcolor-subdued);
 }

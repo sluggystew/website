@@ -1,12 +1,13 @@
-	<style lang="css">
-		footer {
-		font-size: 0.85em;
-		}
-	</style>
-<footer>
+	<!-- <style lang="css"> -->
+	<!-- 	footer { -->
+	<!-- 	font-size: 0.85em; -->
+	<!-- 	} -->
+	<!-- </style> -->
+<footer class="subdued">
 	<p>&copy; {{ now.Year }} <a href='{{ urls.AbsLangURL "/" }}'><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a>.
 	{{- range .Site.Menus.footer }}
-	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
-        {{- end }}
+	<a  href="{{ .URL }}"><b>{{ .Name }}</b></a>.
+			{{- end }}<br>
+			This page was last generated
 	</p>
 </footer>
