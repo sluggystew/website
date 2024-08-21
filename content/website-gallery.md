@@ -7,3 +7,4 @@ draft = true
 Here is a list of nice looking websites in my opinion. (just some links)
 
 - https://onevariable.com/ (2024-08-20)
+- https://archivebox.io/ (2024-08-28)
