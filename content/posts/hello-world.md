@@ -3,7 +3,7 @@ title: "Hello World"
 date: 2024-08-14T20:27:13+02:00
 slug: 2024-08-14-hello-world
 type: posts
-draft: true
+draft: false
 categories:
   - default
 tags:
