@@ -8,7 +8,7 @@ Ich möchte kreative Sachen machen und diese hier festhalten bzw. verlinken.
 Wenn ich etwas erstellt habe werde ich es hier irgendwie erwähnen
 
 Hier sind eine paar Links ->
-- [Github](https://github.com/expstew)
+- [Github](https://github.com/sluggystew)
 
 Und hier einige Posts von mir :smile: ->
 

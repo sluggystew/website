@@ -1,14 +1,14 @@
 # baseURL is handeled via env var with -b flag 
 # (https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#deploy-with-cloudflare-pages)
 enableEmoji = true
-title = "expstew"
+title = "sluggystew"
 theme = "smol"
 copyright = ""sluggystew""
 
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true
 # [menu.main]
-# url = "https://github.com/expstew"
+# url = "https://github.com/sluggystew"
 # title = "Source Code"
 #
 
@@ -28,7 +28,7 @@ enableGitInfo = true
     [languages.en.menu]
       [[languages.en.menu.footer]]
         name = "Source Code"
-        url = "https://github.com/expstew/website"
+        url = "https://github.com/sluggystew/website"
         weight = 1 
 
 
@@ -43,7 +43,7 @@ enableGitInfo = true
     [languages.de.menu]
       [[languages.de.menu.footer]]
         name = "Quellcode"
-        url = "https://github.com/expstew/website"
+        url = "https://github.com/sluggystew/website"
         weight = 1 
 
 [privacy]
