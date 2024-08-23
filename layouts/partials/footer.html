@@ -4,10 +4,10 @@
 	<!-- 	} -->
 	<!-- </style> -->
 <footer class="subdued">
-	<p>&copy; {{ now.Year }} <a href='{{ urls.AbsLangURL "/" }}'><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a>.
+		<p> <a href='{{ urls.AbsLangURL "/" }}'>All Content</a> &copy; {{ now.Year }} sluggystew, licensed under <a href='{{ urls.AbsLangURL "/license-CC-BY-4.0.txt" }}'>CC BY 4.0</a>. 
 	{{- range .Site.Menus.footer }}
-	<a  href="{{ .URL }}"><b>{{ .Name }}</b></a>.
+	<a  href="{{ .URL }}">{{ .Name }}</a>.
 			{{- end }}<br>
-			This page was last generated
+			<!-- This page was last generated -->
 	</p>
 </footer>
