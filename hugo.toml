@@ -3,7 +3,7 @@
 enableEmoji = true
 title = "sluggystew"
 theme = "smol"
-copyright = ""sluggystew""
+copyright = "sluggystew"
 
 defaultContentLanguage = "en"
 # defaultContentLanguageInSubdir = true
