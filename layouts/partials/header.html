@@ -1,8 +1,9 @@
 <header>
-	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
-	== <b>{{ .Site.Title }}</b> ==<br>
-	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
-	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
+	<!-- {{ strings.Repeat ( .Site.Title | len | add 4 ) "#" }}<br> -->
+	<!-- # <b>{{ .Site.Title }}</b> #<br> -->
+	<b style="font-size: x-large" >{{ .Site.Title }}</b>
+	<!-- {{ strings.Repeat ( .Site.Title | len | add 4 ) "#" }} -->
+	<i style="float: right;">{{ .Site.Params.subtitle }}</i><br>
 	<p>
 	<nav>
 		<a href='{{ urls.AbsLangURL "/" }}'><b>Home</b></a>.
@@ -14,3 +15,4 @@
 	</p>
 	{{ end }}
 </header>
+	<hr>

@@ -1,10 +1,6 @@
-	<!-- <style lang="css"> -->
-	<!-- 	footer { -->
-	<!-- 	font-size: 0.85em; -->
-	<!-- 	} -->
-	<!-- </style> -->
+<hr>
 <footer class="subdued">
-		<p> <a href='{{ urls.AbsLangURL "/" }}'>All Content</a> &copy; {{ now.Year }} sluggystew, licensed under <a href='{{ urls.AbsLangURL "/license-CC-BY-4.0.txt" }}'>CC BY 4.0</a>. 
+		<p> <a href='{{ urls.AbsLangURL "/" }}'>Content</a> &copy; {{ now.Year }} sluggystew, licensed under <a href='{{ urls.AbsLangURL "/license-CC-BY-4.0.txt" }}'>CC BY 4.0</a>. 
 	{{- range .Site.Menus.footer }}
 	<a  href="{{ .URL }}">{{ .Name }}</a>.
 			{{- end }}<br>

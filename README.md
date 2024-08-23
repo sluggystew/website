@@ -7,11 +7,6 @@ The file .hugo-version contains the version the website is intended to be built 
 -> you have to update the HUGO_VERSION env varibale in cloudflare manually!
 
 # Todo
-## done until release
-- robots.txt
-- imprint ?
-- copyright
-
 ## QOL
 - light/dark mode switcher
 - langauge switcher as link to lang specific site
@@ -26,5 +21,7 @@ The file .hugo-version contains the version the website is intended to be built 
 ## content
 - music links
 
+- robots.txt
+- sitemap
 
 
