@@ -13,6 +13,7 @@ The file .hugo-version contains the version the website is intended to be built 
   - lang specific sites?
   - en placeholder for de sites?
 - make Iosevka font button that loads it. (and stores prefernce?)
+- backlinks
 
 ## fun
 - crazy theme mode
