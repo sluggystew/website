@@ -6,6 +6,7 @@ type: story
 draft: false
 categories:
 tags:
+  - default
 ---
 
 At a certain moment in time the moon split in two.
